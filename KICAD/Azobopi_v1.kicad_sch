@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 35c8bb11-2c95-43d4-b3fb-d30c3ed044b8)
+
+  (paper "A4")
+
+  (title_block
+    (title "Main Board")
+    (date "2023-11-02")
+    (rev "V1.0")
+    (company "EBIRP")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Button Board \nPush buttons\nhttps://www.botnroll.com/pt/kits-interruptores-botoes/533-botoes-de-pressao-coloridos-x12.html\nNeoPixel 8mm\nhttps://www.adafruit.com/product/1734\n"
+    (at 30.48 130.81 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0537980b-ca48-4e95-81f6-2b4bacdf6620)
+  )
+  (text "Power Supply Board\nNCP1117DT33G Linear Regulator\nhttps://www.digikey.pt/pt/products/detail/onsemi/NCP1117DT33G/1483318"
+    (at 29.21 82.55 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 79a99f5c-1a16-4057-80f0-0dc6dffe4659)
+  )
+  (text "Main board for the Azobopi\nESP32 DevKitC\nHR8833 Dual Hbridge\nhttps://www.dfrobot.com/product-1492.html"
+    (at 27.94 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9f960c53-b1bc-4916-8325-2acadc04f062)
+  )
+
+  (sheet (at 24.13 73.66) (size 134.62 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0fd88f37-af5d-4bb9-98e0-0081dbcd5163)
+    (property "Sheetname" "Power" (at 24.13 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 24.13 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Azobopi_v1"
+        (path "/35c8bb11-2c95-43d4-b3fb-d30c3ed044b8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 26.67) (size 69.85 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5ab3059d-4cce-4dcd-af93-cbd4e156da69)
+    (property "Sheetname" "MainBoard" (at 24.13 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MainBoard.kicad_sch" (at 24.13 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Azobopi_v1"
+        (path "/35c8bb11-2c95-43d4-b3fb-d30c3ed044b8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 119.38) (size 133.35 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8ed937ab-803d-4599-8a5d-b6ecb61f2c38)
+    (property "Sheetname" "ButtonBoard" (at 25.4 118.6684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ButtonBoard.kicad_sch" (at 25.4 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Azobopi_v1"
+        (path "/35c8bb11-2c95-43d4-b3fb-d30c3ed044b8" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
