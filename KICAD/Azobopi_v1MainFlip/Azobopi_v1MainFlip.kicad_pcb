@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "AZOBOPI")
+    (date "2023-11-10")
+    (rev "V1.0")
+    (company "EBIRP")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -514,7 +521,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 72332cbf-aa9e-475c-b185-b72f68529cac)
     )
-    (fp_text value "HR8833" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "HR8833" (at 0 0 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3bfacee0-4016-4ec9-baa9-ce1c68e62c33)
     )
@@ -706,7 +713,7 @@
         (effects (font (size 1.000386 1.000386) (thickness 0.15)))
       (tstamp d017db9b-b26f-466f-91c3-7ca327386e7f)
     )
-    (fp_text value "MODULE_ESP32-DEVKITC-32D" (at 0 5.64) (layer "F.Fab")
+    (fp_text value "MODULE_ESP32-DEVKITC-32D" (at 0 5.64) (layer "F.SilkS")
         (effects (font (size 1.001047 1.001047) (thickness 0.15)))
       (tstamp 46376217-ddd2-425a-959b-ca85722ccd11)
     )
